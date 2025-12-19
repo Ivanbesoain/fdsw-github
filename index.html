@@ -1,196 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>CV - Iván Ignacio Besoain A.</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap 5.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-    <!-- Encabezado -->
-    <header>
-        <h1>Iván Ignacio Besoain A.</h1>
-        <img class="avatar" src="assets/img/yo.jpg" alt="Foto de perfil de Iván Besoain" width="180" height="180">
-        <p>Ingeniero Informático</p>
 
-        <!-- Datos de contacto con ENLACES -->
-        <p>
-            <strong>Contacto:</strong>
-            <a href="mailto:nachobesoain@gmail.com">nachobesoain@gmail.com</a> ·
-            <a href="tel:996985699">996985699</a> ·
-            <a href="https://www.linkedin.com/in/iv%C3%A1n-besoain-aranda-a83465a2/" target="_blank"> Perfil
-                Linkedin</a>
-        </p>
+<header class="text-center mb-4">
+    <h1>Iván Ignacio Besoain A.</h1>
+    <img class="avatar" src="assets/img/yo.jpg" alt="Foto de perfil de Iván Besoain">
+    <p class="mt-2">Ingeniero Informático</p>
 
-        <!-- Navegación interna con ENLACES -->
-        <nav>
-            <ul>
-                <li><a href="#resumen">Resumen</a></li>
-                <li><a href="#conocimientos">Conocimientos</a></li>
-                <li><a href="#certificados">Certificados</a></li>
-                <li><a href="#experiencia">Experiencia</a></li>
-                <li><a href="#formacion">Formación</a></li>
-                <li><a href="portafolio.html">Portafolio</a></li>
-            </ul>
-        </nav>
-        <hr>
-    </header>
+    <p class="mb-2">
+        <strong>Contacto:</strong>
+        <a href="mailto:nachobesoain@gmail.com">nachobesoain@gmail.com</a> ·
+        <a href="tel:996985699">996985699</a> ·
+        <a href="https://www.linkedin.com/in/iv%C3%A1n-besoain-aranda-a83465a2/" target="_blank">LinkedIn</a>
+    </p>
 
-    <main>
-        <!-- RESUMEN: TÍTULO + PÁRRAFOS -->
-        <section id="resumen">
-            <h2>Resumen profesional</h2>
-            <p>
-                Ingeniero Informático con más de 4 años de experiencia en desarrollo de software, integración de
-                sistemas y automatización de procesos de negocio en áreas como logística, retail, marketing y gestión
-                financiera. Me apasiona transformar procesos complejos en soluciones simples, escalables y con impacto
-                real en la operación y la estrategia del negocio.
-            </p>
-            <p>
-                Me caracterizo por ser autodidacta, adaptable y disciplinado, con capacidad de aprendizaje rápido y
-                enfoque en resultados. He trabajado en proyectos de automatización e integraciones entre plataformas
-                (SAP Business One, POS, ERP, WMS, medios de pago, entre otros), contribuyendo a la eficiencia,
-                trazabilidad y crecimiento de las organizaciones.
+    <nav class="mt-3">
+        <ul class="nav justify-content-center gap-2">
+            <li class="nav-item"><a class="nav-link" href="#resumen">Resumen</a></li>
+            <li class="nav-item"><a class="nav-link" href="#conocimientos">Conocimientos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#certificados">Certificados</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+            <li class="nav-item"><a class="nav-link" href="#formacion">Formación</a></li>
+            <li class="nav-item"><a class="nav-link fw-semibold" href="portafolio.html">Portafolio</a></li>
+        </ul>
+    </nav>
 
-            </p>
-        </section>
+    <hr>
+</header>
 
-        <!-- CONOCIMIENTOS: LISTAS CON SUBLISTAS -->
-        <section id="conocimientos">
-            <h2>Conocimientos específicos</h2>
+<main>
 
-            <h3>Bases de datos</h3>
-            <ul>
-                <li>SQL Server</li>
-                <li>MySQL</li>
-                <li>Oracle</li>
-            </ul>
+<section id="resumen">
+    <h2>Resumen profesional</h2>
+    <p>
+        Ingeniero Informático con más de 4 años de experiencia en desarrollo de software,
+        integración de sistemas y automatización de procesos de negocio en áreas como
+        logística, retail, marketing y gestión financiera.
+    </p>
+    <p>
+        Profesional autodidacta, adaptable y orientado a resultados, con experiencia en
+        integraciones entre ERP, POS, WMS y plataformas de pago.
+    </p>
+</section>
 
-            <h3>Lenguajes</h3>
-            <ul>
-                <li>PHP</li>
-                <li>C#</li>
-                <li>JavaScript</li>
-                <li>Java</li>
-            </ul>
+<section id="conocimientos">
+    <h2>Conocimientos específicos</h2>
 
-            <h3>Frameworks y herramientas</h3>
-            <ul>
-                <li>Node.js</li>
-                <li>ASP.NET / Entity Framework</li>
-                <li>Laravel (5–6)</li>
-                <li>Vue</li>
-            </ul>
+    <h3>Bases de datos</h3>
+    <ul>
+        <li>SQL Server</li>
+        <li>MySQL</li>
+        <li>Oracle</li>
+    </ul>
 
-            <h3>SO y control de versiones</h3>
-            <ul>
-                <li>Linux Ubuntu &amp; Windows</li>
-                <li>Git, Azure DevOps Server, Bitbucket</li>
-            </ul>
+    <h3>Lenguajes</h3>
+    <ul>
+        <li>PHP</li>
+        <li>C#</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+    </ul>
 
-            <h3>Contenedores y modelado</h3>
-            <ul>
-                <li>Docker &amp; Docker Compose</li>
-                <li>BPMN (Bizagi Modeler)</li>
-            </ul>
+    <h3>Frameworks y herramientas</h3>
+    <ul>
+        <li>Node.js</li>
+        <li>ASP.NET / Entity Framework</li>
+        <li>Laravel</li>
+        <li>Vue</li>
+    </ul>
+</section>
 
-            <h3>Automatización e integraciones</h3>
-            <ul>
-                <li>Power Automate</li>
-                <li>SAP DI API</li>
-            </ul>
+<section id="certificados">
+    <h2>Certificados</h2>
+    <ul>
+        <li>Arquitectura de Sistemas Computacionales</li>
+        <li>Gestión de Proyectos Informáticos</li>
+        <li>Programación Avanzada</li>
+        <li>Administración de Bases de Datos</li>
+    </ul>
+</section>
 
-            <h3>Metodologías y otros</h3>
-            <ul>
-                <li>CMMI</li>
-                <li>Inglés intermedio</li>
-            </ul>
-        </section>
+<section id="experiencia">
+    <h2>Experiencia laboral</h2>
 
-        <!-- CERTIFICADOS: LISTA -->
-        <section id="certificados">
-            <h2>Certificados</h2>
-            <ul>
-                <li>Arquitectura de Sistemas Computacionales</li>
-                <li>Gestión de Proyectos Informáticos</li>
-                <li>Programación Avanzada</li>
-                <li>Administración de Sistemas Operativos</li>
-                <li>Auditoría y Procesos Computacionales</li>
-                <li>Administración de Bases de Datos</li>
-                <li>Seguridad Computacional</li>
-                <li>Análisis y Desarrollo de Modelos de Datos</li>
-                <li>Soporte Computacional</li>
-                <li>Modelamiento de Sistemas Computacionales</li>
-            </ul>
-        </section>
+    <article>
+        <h3>Ingeniero de Software – Grupo Limonada</h3>
+        <p class="text-muted">01/2024 – Actual · Santiago de Chile</p>
+        <ul>
+            <li>Integraciones con ERP y plataformas de pago.</li>
+            <li>Automatización de procesos de negocio.</li>
+            <li>APIs y microservicios en Node.js.</li>
+        </ul>
+    </article>
 
-        <!-- EXPERIENCIA: TÍTULOS + PÁRRAFOS + LISTAS -->
-        <section id="experiencia">
-            <h2>Experiencia laboral</h2>
+    <article>
+        <h3>Desarrollador de Software – Fashion’s Park</h3>
+        <p class="text-muted">01/2022 – 12/2023 · Santiago de Chile</p>
+        <ul>
+            <li>Desarrollo .NET y SQL Server.</li>
+            <li>Proyectos E-Commerce y WMS.</li>
+        </ul>
+    </article>
+</section>
 
-            <article>
-                <h3>Ingeniero de Software – Grupo Limonada (01/2024 – Actual)</h3>
-                <p>Santiago de Chile, RM</p>
-                <ul>
-                    <li>Soluciones para retail omnicanal, e-commerce, ERP, backoffice y logística.</li>
-                    <li>Integraciones con ERP, pasarelas de pago y plataformas financieras.</li>
-                    <li>Automatizaciones con Power Automate.</li>
-                    <li>Microservicios y APIs en Node.js, PHP y SQL Server.</li>
-                    <li>Proyectos para marketing digital y tesorería (conciliación/liquidación).</li>
-                    <li>Modelado de procesos en BPMN y documentación en Bizagi.</li>
-                    <li>Trabajo ágil y colaborativo, entregas end-to-end.</li>
-                </ul>
-            </article>
+<section id="formacion">
+    <h2>Formación</h2>
+    <ul>
+        <li><strong>Ingeniero en Informática</strong> – Duoc UC</li>
+        <li>Educación Media – Colegio Dr. Osvaldo Rojas</li>
+    </ul>
+</section>
 
-            <article>
-                <h3>Desarrollador de Software – Fashion’s Park S.A (01/2022 – 12/2023)</h3>
-                <p>Santiago de Chile, RM</p>
-                <ul>
-                    <li>Proyectos PTL E-Commerce, WMS y ERP con metodologías ágiles.</li>
-                    <li>.NET, C#, SQL Server, ASP.NET Core (servicios y APIs REST).</li>
-                    <li>Front-end con JavaScript y CSS; MVC y arquitectura por capas.</li>
-                    <li>Trabajo con equipos multifuncionales (analistas, devs, soporte).</li>
-                </ul>
-            </article>
+</main>
 
-            <article>
-                <h3>Software Engineer – ISBAST (08/2021 – 12/2021)</h3>
-                <p>Santiago de Chile, RM</p>
-                <ul>
-                    <li>Back-end para App Mobile: PHP Laravel 6, MySQL.</li>
-                    <li>Git, Docker, docker-compose, Linux Ubuntu.</li>
-                    <li>APIs REST; Google Maps (Laravel Guzzle) y Passport.</li>
-                    <li>MVC y consumo de APIs con Postman.</li>
-                </ul>
-            </article>
+<footer class="text-center mt-4">
+    <hr>
+    <p class="text-muted">© 2025 Iván Ignacio Besoain A.</p>
+</footer>
 
-            <article>
-                <h3>Consultor Practicante – ICG Chile (01/2021 – 04/2021)</h3>
-                <p>Ñuñoa, Santiago</p>
-                <ul>
-                    <li>Consultas y administración de SQL Server.</li>
-                    <li>Implementación y configuración de POS e instalación de sistemas.</li>
-                    <li>Documentación y consultoría a usuario final.</li>
-                </ul>
-            </article>
-        </section>
-
-        <!-- FORMACIÓN: LISTA -->
-        <section id="formacion">
-            <h2>Formación</h2>
-            <ul>
-                <li><strong>Ingeniero en Informática</strong> – Duoc UC (08/2021) – Santiago de Chile</li>
-                <li><strong>Educación media</strong> – Colegio Dr. Osvaldo Rojas (12/2012) – Santiago de Chile</li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <hr>
-        <p>© 2025 Iván Ignacio Besoain A.</p>
-    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
